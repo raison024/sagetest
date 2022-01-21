@@ -1,0 +1,142 @@
+.Buyer-Dash2{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #26D7AB;
+    overflow: hidden;
+}
+.BuyerDash2-header{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5vmin;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
+}
+.BuyerDash2-nav{
+    height: 100%;
+    width: 5%;
+    background-color: #26D7AB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12vmin;
+    justify-content: flex-start;
+}
+.Buyer2-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Buyer2-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.BuyerUser2-container{
+    height: 15vmin;
+    width: 80%;
+    /*background-color: blueviolet;*/
+    margin: 1vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.BuyerDash2-title{
+    font-size: 4vmin;
+    font-weight: bold;
+    color: #333333;
+}
+.BuyerDash2-user{
+    height: 10vmin;
+    width: 30vmin;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Buyer2-icon{
+    height: 7vmin;
+    margin: 1vmin;
+}
+.BuyerStats2-container{
+    background-color: white;
+    border-width: 0.2px;
+    border-style: solid;
+    border-radius: 5vmin;
+    border-color: rgba(0, 0, 0, 0.4);
+    height: 28vmin;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: center;
+    margin-left: 18vmin;
+    padding: 2vmin;
+}
+.BuyerPiechart2-container{
+    height: 100%;
+    width: 35%;
+    margin: 1vmin;
+    padding: 1vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .BuyerCrop2-button{
+    height: 4vmin;
+    width: 25vmin;
+    background-color: #26D7AB;
+    border-width: 0.2vmin;
+    border-style: solid;
+    border-color: transparent;
+    color: #fff;
+    font-size: 2vmin;
+    margin: 1vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5vmin;
+    text-decoration: none;
+    padding: 0.5vmin;
+  }
+  .BuyerCrop2-button:hover{
+    background-color: #fff;
+    color: #26D7AB;
+    border-color: #26D7AB;
+    border-width: 0.2vmin;
+    border-style: solid;
+  }
+
+  .FarmerDetails-container{
+    background-color: white;
+    border-width: 0.2px;
+    border-style: solid;
+    border-radius: 5vmin;
+    border-color: rgba(0, 0, 0, 0.4);
+    height: 18vmin;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: center;
+    margin-left: 15vmin;
+    padding: 2vmin;
+    margin-top: 2vmin;
+}

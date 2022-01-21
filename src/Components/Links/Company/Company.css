@@ -1,0 +1,660 @@
+.Company{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.Company-nav{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8vmin;
+    width: 100%;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0.3vmin;
+    border-style: solid;
+    border-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 9999;
+    animation-name: CompNav-anim;
+    animation-duration: 1.5s;
+}
+@keyframes CompNav-anim {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.Company-navicon{
+    height: 5vmin;
+    margin: 1vmin;
+    margin-top: 1.5vmin;
+}
+.Company-goback{
+    font-size: 1.8vmin;
+    font-weight: bold;
+    color: #C60A0A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmin;
+    text-decoration: none;
+}
+.Company-goback:hover{
+    color: #000;
+}
+.Company-container{
+    height: 70vmin;
+    width: 70vmin;
+    margin: 1vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Company-title{
+    position: relative;
+    font-size: 6vmin;
+    font-weight: bold;
+    color: #C60A0A;
+    margin: 1vmin;
+    animation-name: CompTitle-anim;
+    animation-duration: 1.5s;
+}
+@keyframes CompTitle-anim {
+    from{
+        left: -8vmin;
+        opacity: 0;
+    }
+    to{
+        left: 0vmin;
+        opacity: 1;
+    }
+}
+.Company-content{
+    position: relative;
+    font-size: 2vmin;
+    color: #333;
+    margin: 1vmin;
+    animation-name: CompTitle-anim;
+    animation-duration: 1.5s;
+}
+.Company-learnmore{
+    position: relative;
+    height: 5vmin;
+    width: 25vmin;
+    border-width: 0.4vmin;
+    border-style: solid;
+    border-color: #C60A0A;
+    border-radius: 0.8vmin;
+    background-color: #C60A0A;
+    font-size: 1.8vmin;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmin;
+    margin-top: 3vmin;
+    text-decoration: none;
+    animation-name: CompLearn-anim;
+    animation-duration: 1.5s;
+}
+.Company-learnmore:hover{
+    background-color: #fff;
+    color: #C60A0A;
+}
+@keyframes CompLearn-anim {
+    from{
+        top: 8vmin;
+        opacity: 0;
+    }
+    to{
+        top: 0vmin;
+        opacity: 1;
+    }
+}
+
+.Company-logo{
+    position: relative;
+    height: 30vmin;
+    margin: 1vmin;
+    margin-left: 15vmin;
+    animation-name: CompLogo-anim;
+    animation-duration: 1.5s;
+}
+@keyframes CompLogo-anim {
+    from{
+        left: 8vmin;
+        opacity: 0;
+    }
+    to{
+        left: 0vmin;
+        opacity: 1;
+    }
+}
+
+.TeamPage{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.Team-container{
+    position: absolute;
+    top: 3vmin;
+    left: 20vmin;
+    height: 55vmin;
+    width: 55vmin;
+    margin: 1vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Team-title{
+    font-size: 2vmin;
+    font-weight: normal;
+    color: gray;
+    margin: 1vmin;
+}
+.Team-maintitle{
+    font-size: 5vmin;
+    font-weight: bold;
+    color: black;
+    margin: 1vmin;
+}
+.Team-content{
+    font-size: 2.2vmin;
+    font-weight: normal;
+    color: darkslategrey;
+    margin: 1vmin;
+}
+
+
+.smoothSlideContainer {
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #person img {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    z-index: 0;
+    -webkit-animation: personslideout 4s ease-in-out infinite;
+    animation: personslideout 6s ease-in-out infinite;
+  }
+  
+  .bar {
+    background-color: #e28;
+    z-index: 0;
+  }
+  
+  .bar2 {
+    background-color: #26d7ab;
+    z-index: 1;
+  }
+  
+  #bar1 {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    height: 3%;
+    width: 50%;
+    -webkit-animation: bar1slide 6s ease-in-out infinite;
+    animation: bar1slide 6s ease-in-out infinite;
+  }
+  
+  #bar2 {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    height: 5%;
+    width: 60%;
+    -webkit-animation: bar2slide 6s ease-in-out infinite;
+    animation: bar2slide 6s ease-in-out infinite;
+  }
+  
+  #bar3 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 12%;
+    width: 40%;
+    -webkit-animation: bar3slide 6s ease-in-out infinite;
+    animation: bar3slide 6s ease-in-out infinite;
+  }
+  
+  #bar4 {
+    position: absolute;
+    right: 0;
+    top: 16%;
+    height: 2%;
+    width: 30%;
+    -webkit-animation: bar4slide 6s ease-in-out infinite;
+    animation: bar4slide 6s ease-in-out infinite;
+  }
+  
+  #bar5 {
+    position: absolute;
+    right: 0;
+    top: 85%;
+    height: 4%;
+    width: 30%;
+    -webkit-animation: bar5slide 6s ease-in-out infinite;
+    animation: bar5slide 6s ease-in-out infinite;
+  }
+  
+  #bar6 {
+    position: absolute;
+    right: 0;
+    top: 80%;
+    height: 4%;
+    width: 55%;
+    -webkit-animation: bar6slide 4s ease-in-out infinite;
+    animation: bar6slide 4s ease-in-out infinite;
+  }
+  
+  #bar7 {
+    position: absolute;
+    right: 0;
+    top: 65%;
+    height: 10%;
+    width: 25%;
+    -webkit-animation: bar6slide 6s ease-in-out infinite;
+    animation: bar6slide 6s ease-in-out infinite;
+  }
+  
+  #bar8 {
+    position: absolute;
+    right: 0;
+    top: 46%;
+    height: 2%;
+    width: 35%;
+    -webkit-animation: bar6slide 6s ease-in-out infinite;
+    animation: bar6slide 6s ease-in-out infinite;
+  }
+  
+  @-webkit-keyframes bar1slide {
+    0% {
+      right: -100%;
+    }
+    20% {
+      right: -2%;
+    }
+    40% {
+      right: 0;
+    }
+    70% {
+      right: -50%;
+    }
+    100% {
+      right: -100%;
+    }
+  }
+  
+  @keyframes bar1slide {
+    0% {
+      right: -100%;
+    }
+    20% {
+      right: -2%;
+    }
+    40% {
+      right: 0;
+    }
+    70% {
+      right: -50%;
+    }
+    100% {
+      right: -100%;
+    }
+  }
+  
+  @-webkit-keyframes bar2slide {
+    0% {
+      right: -70%;
+    }
+    30% {
+      right: -2%;
+    }
+    50% {
+      right: 0;
+    }
+    80% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  
+  @keyframes bar2slide {
+    0% {
+      right: -70%;
+    }
+    30% {
+      right: -2%;
+    }
+    50% {
+      right: 0;
+    }
+    80% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  
+  @-webkit-keyframes bar3slide {
+    0% {
+      right: -70%;
+    }
+    60% {
+      right: -2%;
+    }
+    50% {
+      right: 0;
+    }
+    80% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  
+  @keyframes bar3slide {
+    0% {
+      right: -70%;
+    }
+    60% {
+      right: -2%;
+    }
+    50% {
+      right: 0;
+    }
+    80% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  
+  @-webkit-keyframes bar4slide {
+    0% {
+      right: -70%;
+    }
+    30% {
+      right: -2%;
+    }
+    50% {
+      right: 0;
+    }
+    90% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  
+  @keyframes bar4slide {
+    0% {
+      right: -70%;
+    }
+    30% {
+      right: -2%;
+    }
+    50% {
+      right: 0;
+    }
+    90% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  @-webkit-keyframes bar5slide {
+    0% {
+      right: -70%;
+    }
+    35% {
+      right: -2%;
+    }
+    50% {
+      right: 0;
+    }
+    70% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  @keyframes bar5slide {
+    0% {
+      right: -70%;
+    }
+    35% {
+      right: -2%;
+    }
+    50% {
+      right: 0;
+    }
+    70% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  
+  @-webkit-keyframes bar6slide {
+    0% {
+      right: -70%;
+    }
+    45% {
+      right: -2%;
+    }
+    60% {
+      right: 0;
+    }
+    70% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  
+  @keyframes bar6slide {
+    0% {
+      right: -70%;
+    }
+    45% {
+      right: -2%;
+    }
+    60% {
+      right: 0;
+    }
+    70% {
+      right: -70%;
+    }
+    100% {
+      right: -70%;
+    }
+  }
+  
+  @-webkit-keyframes personslideout {
+    0% {
+      right: -100%;
+    }
+    25% {
+      right: 0%;
+    }
+    50% {
+      right: 1%;
+    }
+    100% {
+      right: -100%;
+    }
+  }
+  
+  @keyframes personslideout {
+    0% {
+      right: -100%;
+    }
+    25% {
+      right: 0%;
+    }
+    50% {
+      right: 1%;
+    }
+    100% {
+      right: -100%;
+    }
+  }
+  
+  .Sageimg{
+    position: relative;
+    top: -30vmin;
+    filter: grayscale(100%);
+  }
+  
+  
+  .Team-modal{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  .Team-modalcontainer{
+    position: relative;
+    height: 75vmin;
+    width: 100vmin;
+    border-radius: 2vmin;
+    background-color: #f8f8f8;
+    /*background-color: rgba(38, 215, 171, 0.8);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: TeamModal-container;
+    animation-duration: 1s;
+  }   
+  @keyframes TeamModal-container{
+    from{
+      top: 5vmin;
+      opacity: 0;
+    }
+    to{
+      top: 0vmin;
+      opacity: 1;
+    }
+  }
+  .TeamModal-headercontainer{
+    height: 9%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0.5vmin;
+  }
+  .TeamModal-title{
+    font-size: 4vmin;
+    color: #000;
+    font-weight: bold;
+    margin-left: 2vmin;
+  }
+  .TeamModal-cardcontainer{
+    /*background-color: #e28;*/
+    height: 91%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .TeamModal-card{
+    position: relative;
+    height: 30vmin;
+    width: 25vmin;
+    border-radius: 1.5vmin;
+    background-color: #222;
+    margin: 1vmin;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    animation-name: TeamCard-anim;
+    animation-duration: 1s;
+}
+
+@keyframes TeamCard-anim {
+    from{
+        top: 4vmin;
+        opacity: 0;
+    }
+    to{
+        top: 0vmin;
+        opacity: 1;
+    }
+}
+
+.Team-cardicon{
+    background-color: #f0f0f0;
+    height: 11vmin;
+    border-radius: 20vmin;
+    border-width: 0.5vmin;
+    border-style: solid;
+    border-color: #fff;
+    margin: 1vmin;
+}
+
+.Team-cardname{
+    font-size: 1.8vmin;
+    font-weight: bold;
+    margin-top: 1vmin;
+}
+.Team-cardpost{
+    font-size: 1.5vmin;
+    color: #f0f0f0;
+    margin-bottom: 1vmin;
+}
+.Team-socialcontainer{
+    height: 10%;
+    width: 60%;
+    margin: 1vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

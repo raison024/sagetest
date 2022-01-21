@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.Page2 {
+    text-align: center;
+  }
+  
+.Page2-header {
+    background-color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+.Page2-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Page2-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Page2-title{
+    height: 30vmin;
+    width: 95vmin;
+    /*background-color: #ee2288;*/
+    font-size: 5vmin;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 4vmin;
+}
+.Page2-titlecontent{
+    font-size: 2.4vmin;
+    font-weight: normal;
+    color: #333333;
+    margin-top: 1vmin;
+    text-align: center;
+}
+
+.PhoneGIF{
+    height: 75vmin;
+    margin: 1vmin;
+    margin-left: 0vmin;
+    pointer-events: none;
+}
+
+.Page2-container{
+    height: 26vmin;
+    width: 30vmin;
+    padding: 0.5vmin;
+    margin: 1vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    /*background-color: blueviolet;*/
+}
+.Page2-contenttitle{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: #333333;
+    margin: 1vmin;
+    margin-top: 2vmin;
+}
+.Page2-content{
+    height: 10vmin;
+    width: 93%;
+    padding: 1vmin;
+    font-size: 2vmin;
+    font-weight: normal;
+    color: #333333;
+    margin: 1vmin; 
+    text-align: left;
+}
+.Page2-seemore{
+    font-size: 1.8vmin;
+    font-weight: bold;
+    margin: 1vmin;
+    color: #ee2288;
+}
+.Page2-seemore:hover{
+    color: #26d7ab;
+}

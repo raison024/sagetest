@@ -1,0 +1,260 @@
+.BuyerLogin-App {
+  text-align: center;
+}
+
+.BuyerLogin-header {
+  background-color: #282c34;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vmin;
+}
+.BuyerLogin-Row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.BuyerLogin-Column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.BuyerLogin-logo{
+  height: 6vmin;
+  margin: 0.2vmin;
+  position: absolute;
+  left: 0;
+  margin-left: 4vmin;
+  margin-top: 4vmin;
+  top: 0;
+}
+.BuyerLogin-image{
+    height: 45vmin;
+    margin: 1vmin;
+    pointer-events: none;
+    position: relative;
+    animation-name: Start-animation;
+    animation-duration: 1.5s;
+}
+.Buyer-login{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.BuyerLogin-Container{
+  height: 100%;
+  overflow: visible;
+}
+.BuyerLogin-box1{
+  width: 40%;
+}
+.BuyerLogin-box2{
+  width: 60%;
+}
+.Buyer-loginbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: white;
+}
+.BuyerLogin-starttitle{
+  font-weight: bold;
+  font-size: 5.2vmin;
+  font-style: normal;
+  text-align: left;
+  position: relative;
+  animation-name: Start-animation;
+  animation-duration: 1.5s;
+}
+@keyframes Start-animation {
+  from {
+      left: -7vmin;
+      opacity: 0;
+  }
+  to {
+      left: 0;
+      opacity: 1;
+  }
+}
+
+.BuyerLogin-welcomebox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: black;
+  animation-name: Welcome-animation;
+  animation-duration: 1s;
+  position: relative;
+}
+@keyframes Welcome-animation {
+  from {
+      top: -8vmin;
+      opacity: 0;
+  }
+  to {
+      top: 0;
+      opacity: 1;
+  }
+}
+.BuyerLogin-welcometitle{
+  font-weight: bold;
+  font-size: 5.5vmin;
+  font-style: normal;
+  color: #e28;
+  margin: 1vmin;
+}
+.BuyerLogin-continuetitle{
+  font-size: 2.5vmin;
+  color: #000;
+  margin: 1vmin;
+}
+.BuyerLogin-logininput{
+  font-size: 1.8vmin;
+  height: 4vh;
+  width: 23vw;
+  border-radius: 0.5rem;
+  border-width: 0.1vmin;
+  border-style: solid;
+  border-color: #D0D0D0;
+  margin: 1vmin;
+  padding: 1.5vmin;
+}
+.BuyerLogin-forgotbtn{
+  color: #000;
+  margin: 0.5vmin;
+  font-size: 2vmin;
+  text-decoration: none;
+}
+.BuyerLogin-forgotbtn:hover{
+  color: #333;
+}
+.BuyerLogin-loginbtn{
+  height: 4vh;
+  width: 24vw;
+  border-radius: 4vmin;
+  border-width: 0.4vmin;
+  border-style: solid;
+  border-color: #e28;
+  background-color: #e28;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 1vmin;
+}
+.BuyerLogin-loginbtn:hover{
+  background-color: #fff;
+  border-color: #e28;
+  color: #e28;
+}
+.BuyerLogin-line{
+  width: 11vw;
+  height: 0.05vh;
+  background-color: black;
+  opacity: 0.5;
+  margin: 0.5vmin;
+}
+.BuyerLogin-socialbtn{
+  height: 4vh;
+  width: 11.3vw;
+}
+.BuyerLogin-registerbtn{
+  height: 4vh;
+  width: 24vw;
+  border-radius: 4vmin;
+  border-width: 0.4vmin;
+  border-style: solid;
+  border-color: #26d7ab;
+  background-color: #26d7ab;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 1vmin;
+}
+.BuyerLogin-registerbtn:hover{
+  background-color: #fff;
+  border-color: #26d7ab;
+  color: #26d7ab;
+}
+@media only screen and (max-width: 600px) {
+  .Buyer-login {
+    background-image: linear-gradient(#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
+    flex-direction: column;
+  }
+  .BuyerLogin-box1{
+    display: none;
+  }
+  .BuyerLogin-box2{
+    width: 100%;
+  }
+  .BuyerLogin-logo{
+    height: 10vh;
+  }
+  .BuyerLogin-welcometitle{
+    font-size: 9vmin;
+  }
+  .BuyerLogin-continuetitle{
+    font-size: 4vmin;
+  }
+  .BuyerLogin-logininput{
+    height: 5vh;
+    width: 70vw;
+    font-size: 3.5vmin;
+    border-radius: 2vmin;
+  }
+  .BuyerLogin-forgotbtn{
+    font-size: 3vmin;
+    width: 30vw;
+    margin: 2vmin;
+  }
+  .BuyerLogin-loginbtn{
+    height: 6vh;
+    width: 70vw;
+  }
+  .BuyerLogin-socialbtn{
+    height: 4vh;
+    width: 35vw;
+  }
+  .BuyerLogin-registerbtn{
+    height: 6vh;
+    width: 70vw;
+    border-width: 0.3vmin; 
+    border-color: #3949AB; 
+    border-radius: 9vmin; 
+    text-transform: none; 
+    font-size: 2vmin; 
+    margin: 0.5vmin;
+  }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 601px){
+  .Buyer-login {
+    background-image: linear-gradient(#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
+    flex-direction: column;
+  }
+  .BuyerLogin-box1{
+    display: none;
+  }
+  .BuyerLogin-box2{
+    width: 100%;
+  }
+}

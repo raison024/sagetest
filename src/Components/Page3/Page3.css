@@ -1,0 +1,97 @@
+.Page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Page3-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Page3-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Page3-title{
+    position: relative;
+    top: 5vmin;
+    left: 35vmin;
+    height: 8vmin;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+    font-size: 6vmin;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 2vmin;
+}
+.Page3-titlecontent{
+    font-size: 1.8vmin;
+    color: #333;
+    font-weight: bold;
+}
+.Page3-container{
+    height: 70vmin;
+    width: 110vmin;
+    display: grid;
+    margin: 0.5vmin;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    justify-content: center;
+    margin-right: -10vmin;
+}
+.Page3Content-container{
+    padding: 2vmin;
+    height: 25vmin;
+    width: 30vmin;
+    border-radius: 2vmin; 
+    background-color: rgba(38, 215, 171, 0.3);
+    margin: 2vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #000;
+    z-index: 99999;
+}
+.Page3Content-container:hover{
+    transform: scale(1.02);
+}
+
+.Page3-imgtitle{
+    font-size: 2.2vmin;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Page3-img{
+    height: 10vmin;
+    margin: 1vmin;
+}
+.Page3-imgcontent{
+    font-size: 1.8vmin;
+    color: #333;
+    margin-top: 0.5vmin;
+}
+
+.Page3-FarmerImg{
+    position: relative;
+    left: -15vmin;
+    height: 80vmin;
+    margin: 1vmin;
+    z-index: 0;
+    margin-right: -10vmin;
+}

@@ -1,0 +1,188 @@
+.Nav-header {
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    overflow: hidden;
+  }
+.Nav-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar{
+    height: 13vmin;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: Nav-anim;
+    animation-duration: 2s;
+  }
+  @keyframes Nav-anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  .Nav-left{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Nav-right{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .Nav-Logo{
+    height: 7vmin;
+    margin: 1vmin;
+  }
+  
+  .NavContact-button{
+    height: 4vmin;
+    width: 19vmin;
+    background-color: #EE2288;
+    border-width: 0.2vmin;
+    border-style: solid;
+    border-color: #EE2288;
+    color: #fff;
+    font-size: 1.7vmin;
+    margin: 1vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5vmin;
+    text-decoration: none;
+    padding: 0.5vmin;
+  }
+  .NavContact-button:hover{
+    background-color: #fff;
+    color: #EE2288;
+    border-color: #EE2288;
+    border-width: 0.2vmin;
+    border-style: solid;
+  }
+  .NavLogin-button{
+    height: 4vmin;
+    width: 19vmin;
+    background-color: #26D7AB;
+    border-width: 0.2vmin;
+    border-style: solid;
+    border-color: #26D7AB;
+    color: #fff;
+    font-size: 1.7vmin;
+    margin: 1vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5vmin;
+    text-decoration: none;
+    padding: 0.5vmin;
+  }
+  .NavLogin-button:hover{
+    background-color: #fff;
+    color: #26D7AB;
+    border-color: #26D7AB;
+    border-width: 0.2vmin;
+    border-style: solid;
+  }
+  .Nav-links{
+    color: black;
+    font-size: 2vmin;
+    font-weight: 600;
+    margin: 2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .Nav-links:hover{
+    color: #26D7AB;
+  }
+  .Modal{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #000;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vmin;
+  }
+  
+  .Login-modal{
+    position: relative;
+    height: 50vmin;
+    width: 60vmin;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: LoginModal-anim;
+    animation-duration: 1s;
+    z-index: 0;
+  }
+  @keyframes LoginModal-anim {
+    from {
+        top: -10vmin;
+        opacity: 0;
+    }
+    to {
+        top: 0vmin;
+        opacity: 1;
+    }
+  }
+  .LM-1{
+    /*background-color: green;*/
+    height: 12%;
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .LoginModal-title{
+    font-size: 4vmin;
+    color: #000;
+    font-weight: bold;
+  }
+  .LM-2{
+    /*background-color: hotpink;*/
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .LM2-container{
+    height: 70%;
+    width: 50%;
+    /*background-color: indianred;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .LM2-img{
+    height: 15vmin;
+    margin: 1vmin;
+  }

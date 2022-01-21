@@ -1,0 +1,288 @@
+.Works{
+    height: 400vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Works1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Works-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Works1-title{
+    position: fixed;
+    top: 15vmin;
+    left: 10vmin;
+    font-size: 6vmin;
+    font-weight: bold;
+    height: 30vmin;
+    width: 50vmin;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    animation-name: Works1Text-anim;
+    animation-duration: 1s;
+}
+@keyframes Works1Text-anim {
+    from{
+        top: 8vmin;
+        opacity: 0;
+    }
+    to{
+        top: 15vmin;
+        opacity: 1;
+    }
+}
+
+.Works1-content{
+    position: relative;
+    top: 2vmin;
+    height: 50%;
+    width: 100%;
+    font-size: 2vmin;
+    color: lightslategray;
+    font-weight: normal;
+}
+
+.Works1-container{
+    position: fixed;
+    top: 70vmin;
+    left: 10vmin;
+    height: 25vmin;
+    width: 25vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    animation-name: Works1Link-anim;
+    animation-duration: 1s;
+}
+@keyframes Works1Link-anim {
+    from{
+        left: 20vmin;
+        opacity: 0;
+    }
+    to{
+        left: 10vmin;
+        opacity: 1;
+    }
+}
+
+.Works1-link{
+    font-size: 2.1vmin;
+    color: #111;
+    font-weight: bold;
+    margin: 1vmin;
+}
+.Works1-link:hover{
+    color: #e28;
+}
+.Works1-link:active{
+    color: green;
+}
+.Works2{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Works-homecontainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50vw;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sensors{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Works-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sensor-container{
+    height: 80%;
+    width: 80%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.WorksSensor-imgcontainer{
+    background-color: #fff;
+    height: 70vmin;
+    width: 50vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vmin;
+    color: #e28;
+    font-weight: bold;
+    margin: 1vmin;
+}
+.WorksSensor-contentcontainer{
+    height: 70vmin;
+    width: 55vmin;
+    background-color: aqua;
+    font-size: 2.2vmin;
+    color: #333;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+.WorksSensor-img{
+    position: relative;
+    height: 50vmin;
+    margin: 1vmin;
+    margin-top: 10vmin;
+    animation-name: WorkImg-anim;
+    animation-duration: 1s;
+}
+@keyframes WorkImg-anim{
+    from{
+        left: 10vmin;
+        opacity: 0;
+    }
+    to{
+        left: 0vmin;
+        opacity: 1;
+    }
+}
+
+.Works-WhatQues{
+    position: relative;
+    width: 75vmin;
+    /*background-color: blue;*/
+    font-size: 2.5vmin;
+    color: black;
+    font-weight: bold;
+    margin: 1vmin;
+    margin-top: 2vmin;
+    text-align: left;
+    animation-name: WorksText-anim;
+    animation-duration: 1s;
+}
+@keyframes WorksText-anim {
+    from{
+        top: 10vmin;
+        opacity: 0;
+    }
+    to{
+        top: 0vmin;
+        opacity: 1;
+    }
+}
+
+.Works-WhatContent{
+    /*background-color: blue;*/
+    position: relative;
+    height: 10vmin;
+    width: 75vmin;
+    text-align: left;
+    font-size: 2vmin;
+    margin: 1vmin;
+    color: #333;
+    animation-name: WorksText-anim;
+    animation-duration: 1s;
+}
+.Works-WhatSensorGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+}
+.Works-WhatDataGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+.Works-WhatContainer{
+    height: 7vmin;
+    width: 21vmin;
+    font-size: 1.8vmin;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.2vmin;
+}
+.Works-WhatDataContainer{
+    height: 7vmin;
+    width: 28vmin;
+    font-size: 1.8vmin;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.2vmin;
+}
+.Works-WhatImgContainer{
+    height: 7vmin;
+    width: 7vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Works-WhatImg{
+    height: 6vmin;
+    margin: 1vmin;
+}
+
+.Data{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Works-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

@@ -1,0 +1,131 @@
+.Contact{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.Contact-maincontainer{
+    margin: 1vmin;
+    margin-bottom: -5vmin;
+    height: 65vmin;
+    width: 70%;
+    /*background-color: brown;*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.Contact-header{
+    position: relative;
+    height: 15vmin;
+    width: 60vmin;
+    /*background-color: blue;*/
+    font-size: 4vmin;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmin;
+    animation-name: Cont1-anim;
+    animation-duration: 1s;
+    text-align: left;
+}
+@keyframes Cont1-anim{
+    from{
+        top: 8vmin;
+        opacity: 0;
+    }
+    to{
+        top: 0vmin;
+        opacity: 1;
+    }
+}
+.Contact-headercontent{
+    font-size: 2vmin;
+    color: #777;
+    font-weight: normal;
+    margin: 0.5vmin;
+    text-align: left;
+}
+.Contact-imgcontainer{
+    position: relative;
+    height: 50vmin;
+    width: 50vmin;
+    /*background-color: blueviolet;*/
+    font-size: 4vmin;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmin;
+    margin-right: 10vmin;
+    animation-name: ImgCont-anim;
+    animation-duration: 1s;
+}
+@keyframes ImgCont-anim{
+    from{
+        left: -8vmin;
+        opacity: 0;
+    }
+    to{
+        left: 0vmin;
+        opacity: 1;
+    }
+}
+.Contact-img{
+    height: 45vmin;
+    margin: 1vmin;
+}
+.Contact-contentcontainer{
+    position: relative;
+    min-height: 62vmin;
+    width: 50vmin;
+    /*background-color: aqua;*/
+    font-size: 4vmin;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmin;
+    animation-name: ContentCont-anim;
+    animation-duration: 1s;
+    z-index: 0;
+}
+@keyframes ContentCont-anim{
+    from{
+        left: 8vmin;
+        opacity: 0;
+    }
+    to{
+        left: 0vmin;
+        opacity: 1;
+    }
+}
+.Contact-submit{
+    margin: 2vmin;
+    height: 4.2vmin;
+    width: 98%;
+    border-radius: 0.5vmin;
+    background-color: #26d7ab;
+    font-size: 2vmin;
+    font-weight: normal;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-width: 0.3vmin;
+    border-style: solid;
+    border-color: #26d7ab;
+    }
+.Contact-submit:hover{
+    background-color: #fff;
+    border-color: #26d7ab;
+    color: #26d7ab;
+    }
