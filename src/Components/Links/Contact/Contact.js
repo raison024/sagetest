@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../../App.css';
 import './Contact.css';
-import Sage from './Assets/sage.png';
 import LetterImage from './Assets/letter.png';
 import { Link } from 'react-router-dom';
 import Navbar from '../../Navbar/Navbar';
@@ -47,7 +46,7 @@ function Contact() {
                 
                 <div className='Contact-maincontainer'>
                     <div className='Contact-imgcontainer'>
-                        <img src={LetterImage} className='Contact-img' /> 
+                        <img src={LetterImage} className='Contact-img' aria-label='LetterImage'/> 
                     </div>
                     <div className='Contact-contentcontainer'>
                     <TextField id="outlined-basic" label="Name" variant="outlined" fullWidth margin="normal" />

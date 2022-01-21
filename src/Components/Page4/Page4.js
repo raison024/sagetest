@@ -17,7 +17,7 @@ function Page4() {
 
                 <div className='Page4-container'>
                     <div className='Page4Content-container'>
-                        <img src={Data} className='Page4-img' />
+                        <img src={Data} className='Page4-img' aria-label='Data'/>
                         <div className='Page4-imgtitle'>
                             Data
                             <div className='Page4-imgcontent'>
@@ -26,7 +26,7 @@ function Page4() {
                         </div>
                     </div>
                     <div className='Page4Content-container'>
-                        <img src={Quality} className='Page4-img' />
+                        <img src={Quality} className='Page4-img' aria-label='Data'/>
                         <div className='Page4-imgtitle'>
                             Better Quality
                             <div className='Page4-imgcontent'>
@@ -35,7 +35,7 @@ function Page4() {
                         </div>
                     </div>
                     <div className='Page4Content-container'>
-                        <img src={Price} className='Page4-img' />
+                        <img src={Price} className='Page4-img' aria-label='Data'/>
                         <div className='Page4-imgtitle'>
                             Better Price
                             <div className='Page4-imgcontent'>
@@ -44,7 +44,7 @@ function Page4() {
                         </div>
                     </div>
                     <div className='Page4Content-container'>
-                        <img src={Price} className='Page4-img' />
+                        <img src={Price} className='Page4-img' aria-label='Data'/>
                         <div className='Page4-imgtitle'>
                             Better Price
                             <div className='Page4-imgcontent'>
@@ -53,7 +53,7 @@ function Page4() {
                         </div>
                     </div>
                     <div className='Page4Content-container'>
-                        <img src={Price} className='Page4-img' />
+                        <img src={Price} className='Page4-img' aria-label='Data'/>
                         <div className='Page4-imgtitle'>
                             Better Price
                             <div className='Page4-imgcontent'>
@@ -62,7 +62,7 @@ function Page4() {
                         </div>
                     </div>
                     <div className='Page4Content-container'>
-                        <img src={Price} className='Page4-img' />
+                        <img src={Price} className='Page4-img' aria-label='Data'/>
                         <div className='Page4-imgtitle'>
                             Better Price
                             <div className='Page4-imgcontent'>
@@ -72,7 +72,7 @@ function Page4() {
                     </div>
                 </div>
 
-                <img src={Buyer} className='Page4-FarmerImg'/>
+                <img src={Buyer} className='Page4-FarmerImg' aria-label='Buyer'/>
                 
             </div>
         </div>

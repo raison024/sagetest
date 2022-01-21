@@ -1,10 +1,8 @@
-import React, { PureComponent, useState, useCallback} from 'react';
 import FarmerIcon from './Assets/farmericon.jpg';
 import IconButton from '@mui/material/IconButton';
-import {Home, ManageAccounts, Settings, ExitToApp, Margin, Place, Agriculture, Grade} from '@mui/icons-material';
+import {Home, ManageAccounts, Settings, ExitToApp, Place, Agriculture} from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import './FarmerProfile.css';
-import { Icon } from '@mui/material';
 import Rating from '@mui/material/Rating';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
@@ -64,7 +62,7 @@ function FarmerProfile() {
                 Farmer Profile
             </div>
             <div className='FarmerProfileDetails-container'>
-                <img src={FarmerIcon} className='FarmerProfile-icon' />
+                <img src={FarmerIcon} className='FarmerProfile-icon' aria-label='FarmerProfile-icon'/>
                 <div className='FarmerProfileDetails-container2'>
                     <div className='FarmerName-title'>Ramappa</div>
                     <div className='FarmerHeading-content' style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>

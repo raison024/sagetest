@@ -1,9 +1,9 @@
-import React, { PureComponent, useState, useCallback} from 'react';
-import { PieChart, Pie, Sector, ResponsiveContainer } from 'recharts';
+import React, { useState, useCallback} from 'react';
+import { PieChart, Pie, Sector} from 'recharts';
 import './BuyerDash2.css';
 import UserIcon from '../Assets/usericon.png';
 import IconButton from '@mui/material/IconButton';
-import {Home, ManageAccounts, Settings, ExitToApp, Margin} from '@mui/icons-material';
+import {Home, ManageAccounts, Settings, ExitToApp} from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
@@ -33,7 +33,6 @@ const data = [
       endAngle,
       fill,
       payload,
-      percent,
       value
     } = props;
     const sin = Math.sin(-RADIAN * midAngle);
@@ -193,7 +192,7 @@ function BuyerDash2() {
                     <div className='BuyerUser2-container'>
                         <div className='BuyerDash2-title'>Tomato</div>
                         <div className='BuyerDash2-user'>Welcome Prithvi
-                            <img src={UserIcon} className='Buyer-icon' />
+                            <img src={UserIcon} className='Buyer-icon' aria-label='Buyer-Icon'/>
                         </div>
                     </div>
                     <div className='BuyerStats2-container'>

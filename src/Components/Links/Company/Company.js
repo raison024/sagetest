@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../../../App.css';
 import './Company.css';
 import Sage from './Assets/sage.png';
@@ -79,7 +79,7 @@ function Company() {
                 <Link className='Company-learnmore'>Learn More &rarr;</Link>
             </div>
             <div>
-                <img src={Sage} className='Company-logo' />
+                <img src={Sage} className='Company-logo' aria-label='Company-logo'/>
             </div>
         </div>
         
@@ -96,7 +96,7 @@ function Company() {
         <div id="person">
             <img
                 id="imgModule"
-                src="https://i.imgur.com/tU6Izd2.png" />
+                src="https://i.imgur.com/tU6Izd2.png" aria-label='img-Module'/>
         </div>
 
         <div className='Team-container'>
@@ -129,7 +129,7 @@ function Company() {
                     {TeamMembers.map(person => {
                         return (
                             <div className='TeamModal-card' key={person.id}>
-                                <img src={person.imglink} className='Team-cardicon' />
+                                <img src={person.imglink} className='Team-cardicon' aria-label='TeamCard-icon'/>
                                 <div className='Team-cardname'>{person.name}</div>
                                 <div className='Team-cardpost'>{person.role}</div>
                                 <div className='Team-socialcontainer'>

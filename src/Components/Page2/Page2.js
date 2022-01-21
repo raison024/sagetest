@@ -1,6 +1,5 @@
 import React from 'react';
 import './Page2.css';
-import Phone from '../../Assets/gif1.gif';
 import ProcessFlow from './Assets/ProcessFlow1.gif';
 
 function Page2() {
@@ -39,7 +38,7 @@ function Page2() {
                         </div>
                         </div>
                     </div>
-                    <img src={ProcessFlow} className='PhoneGIF' />
+                    <img src={ProcessFlow} className='PhoneGIF' aria-label='Phone-GIF'/>
                 </div>
             </header>
         </div>

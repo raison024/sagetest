@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
         <div id="person">
             <img
                 id="imgModule"
-                src="https://i.imgur.com/tU6Izd2.png" />
+                src="https://i.imgur.com/tU6Izd2.png" aria-label='img-module'/>
         </div>
     </div>
     </div>        

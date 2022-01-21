@@ -3,36 +3,12 @@ import '../../../App.css';
 import './Works.css';
 import Footer from '../../Footer/Footer';
 import Navbar from '../../Navbar/Navbar';
-import Sage from '../../../Assets/sage.png';
-import SensorImage from './Assets/sensorimg2.jpg';
 import DataImage from './Assets/analyticsimg.png';
 import ProdDataImage from './Assets/ai.png';
 import MarketImage from './Assets/dash2.png';
-import NPK from './Assets/Data/npk.png';
-import Temp from './Assets/Data/temp.png';
-import Moisture from './Assets/Data/moisture.png';
-import PH from './Assets/Data/ph.png';
-import Predictive from './Assets/Analytics/predictive.png';
-import Prescriptive from './Assets/Analytics/prescriptive.png';
-import Yield from './Assets/Analytics/yield.png';
-import Market from './Assets/Analytics/market.png';
-import { Link } from 'react-router-dom';
 import { Link as ScrollLink} from "react-scroll";
 
 function Works() {
-    const Data = [
-        { id: 1, name: "NPK", imglink: NPK},
-        { id: 2, name: "Temperature", imglink: Temp},
-        { id: 3, name: "Micro-Climatic", imglink: Moisture},
-        { id: 4, name: "Soil pH", imglink: PH}
-      ];
-      const Analytics = [
-        { id: 1, name: "Predictive Analysis", imglink: Predictive},
-        { id: 2, name: "Prescriptive Analysis", imglink: Prescriptive},
-        { id: 3, name: "Yield Prediction", imglink: Yield},
-        { id: 4, name: "Market Analytics", imglink: Market}
-      ];
-
     return (
         <div>
         <Navbar />
@@ -67,7 +43,7 @@ function Works() {
 
         <div className='Works2'>
         <div className='Sensors' id='home'>
-                <img src={DataImage} className='WorksSensor-img' />
+                <img src={DataImage} className='WorksSensor-img' aria-label='WorkSensor-img'/>
                 <div className='Works-WhatQues'>1. Sensors with no upfront cost installed at farmer's site</div>
                     <div className='Works-WhatContent'>Sage installs highly accurate sensors at the 
                         farmer's site with no upfront cost.
@@ -75,7 +51,7 @@ function Works() {
         </div>
 
         <div className='Sensors' id='about'>
-        <img src={DataImage} className='WorksSensor-img' />
+        <img src={DataImage} className='WorksSensor-img' aria-label='WorkSensor-img'/>
                 <div className='Works-WhatQues'>2. Based on Sensor Data farmer receives analytics & advisory</div>
                     <div className='Works-WhatContent'>Farmer receives analytics 
                     on his phone which will help him in
@@ -85,7 +61,7 @@ function Works() {
         </div>
 
         <div className='Sensors' id='contact'>
-                <img src={ProdDataImage} className='WorksSensor-img' />
+                <img src={ProdDataImage} className='WorksSensor-img' aria-label='WorkSensor-img'/>
                 <div className='Works-WhatQues'>3. The Sensor Data along with AI and ML algorithms is 
                     able to predict yield, quality,
                     expected date of harvest of the farm
@@ -99,7 +75,7 @@ function Works() {
         </div>
 
         <div className='Sensors' id='service'>
-                <img src={MarketImage} className='WorksSensor-img' />
+                <img src={MarketImage} className='WorksSensor-img' aria-label='WorkSensor-img'/>
                 <div className='Works-WhatQues'>4. With this data the buyer can directly connect with the farmer and make transactions using our marketplace</div>
                     <div className='Works-WhatContent'>With the rich data we have about produce grown in farms,
                     quantities, quality etc, we have a marketplace where all this

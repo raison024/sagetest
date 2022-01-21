@@ -1,9 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import Sage from './Assets/sage.png';
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import SendIcon from '@mui/icons-material/Send';
 import {Instagram, LinkedIn, Facebook, MailOutline} from '@mui/icons-material/';
 import MailIcon from '@mui/icons-material/Mail';
 import {Link} from "react-router-dom";

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import HomeImage from './Assets/homeimg4.png';
 import Navbar from './Components/Navbar/Navbar';
@@ -7,7 +7,6 @@ import Page3 from './Components/Page3/Page3';
 import Page4 from './Components/Page4/Page4';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Footer from './Components/Footer/Footer';
-import { Link } from 'react-router-dom';
 
 function App() {
   return (

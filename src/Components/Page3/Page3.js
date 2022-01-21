@@ -16,11 +16,11 @@ function Page3() {
             </div>
             <div className='Page3-row'>
                 
-                    <img src={Farmer} className='Page3-FarmerImg'/>
+                    <img src={Farmer} className='Page3-FarmerImg' aria-label='Farmer-img'/>
                
                 <div className='Page3-container'>
                     <div className='Page3Content-container'>
-                        <img src={Sensor} className='Page3-img' />
+                        <img src={Sensor} className='Page3-img' aria-label='Sensor'/>
                         <div className='Page3-imgtitle'>
                             Sensor
                             <div className='Page3-imgcontent'>
@@ -29,7 +29,7 @@ function Page3() {
                         </div>
                     </div>
                     <div className='Page3Content-container'>
-                        <img src={Data} className='Page3-img' />
+                        <img src={Data} className='Page3-img' aria-label='Data'/>
                         <div className='Page3-imgtitle'>
                             Data
                             <div className='Page3-imgcontent'>
@@ -38,7 +38,7 @@ function Page3() {
                         </div>
                     </div>
                     <div className='Page3Content-container'>
-                        <img src={Spray} className='Page3-img' />
+                        <img src={Spray} className='Page3-img' aria-label='Spray'/>
                         <div className='Page3-imgtitle'>
                             Better Price
                             <div className='Page3-imgcontent'>
@@ -47,7 +47,7 @@ function Page3() {
                         </div>
                     </div>
                     <div className='Page3Content-container'>
-                        <img src={Market} className='Page3-img' />
+                        <img src={Market} className='Page3-img' aria-label='Market'/>
                         <div className='Page3-imgtitle'>
                             Marketplace
                             <div className='Page3-imgcontent'>
@@ -57,7 +57,7 @@ function Page3() {
                         </div>
                     </div>
                     <div className='Page3Content-container'>
-                        <img src={Data} className='Page3-img' />
+                        <img src={Data} className='Page3-img' aria-label='Data'/>
                         <div className='Page3-imgtitle'>
                             Better Price
                             <div className='Page3-imgcontent'>
@@ -66,7 +66,7 @@ function Page3() {
                         </div>
                     </div>
                     <div className='Page3Content-container'>
-                        <img src={Spray} className='Page3-img' />
+                        <img src={Spray} className='Page3-img' aria-label='Spray'/>
                         <div className='Page3-imgtitle'>
                             Better Price
                             <div className='Page3-imgcontent'>

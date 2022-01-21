@@ -12,7 +12,7 @@ function Testimonials() {
             </div>
             <div className='Test-container'>
                 <div className='Test-contentcontainer'>
-                    <img src={UserIcon} className='Test-userimg' />
+                    <img src={UserIcon} className='Test-userimg' aria-label='Test-userimg'/>
                     <div className='Test-quotes'>&rdquo;</div>
                     <div className='Test-content'>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -22,7 +22,7 @@ function Testimonials() {
                 </div>
 
                 <div className='Test-contentcontainer'>
-                    <img src={UserIcon} className='Test-userimg' />
+                    <img src={UserIcon} className='Test-userimg' aria-label='User-icon'/>
                     <div className='Test-quotes'>&rdquo;</div>
                     <div className='Test-content'>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -32,7 +32,7 @@ function Testimonials() {
                 </div>
 
                 <div className='Test-contentcontainer'>
-                    <img src={UserIcon} className='Test-userimg' />
+                    <img src={UserIcon} className='Test-userimg' aria-label='UserIcon'/>
                     <div className='Test-quotes'>&rdquo;</div>
                     <div className='Test-content'>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.

@@ -45,11 +45,11 @@ function Navbar() {
                     </div>
                 <div className='LM-2'>
                     <div className='LM2-container'>
-                        <img src={FarmerImage} className='LM2-img' />
+                        <img src={FarmerImage} className='LM2-img' aria-label='FarmerImage'/>
                         <Link to="/farmerlogin" className='Login-button'>Login as a Farmer</Link>
                     </div>
                     <div className='LM2-container'>
-                        <img src={BuyerImage} className='LM2-img' />
+                        <img src={BuyerImage} className='LM2-img' aria-label='BuyerImage'/>
                         <Link to="/buyerlogin" className='Contact-button'>Login as a Buyer</Link>
                     </div>
                 </div>
